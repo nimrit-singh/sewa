@@ -1,0 +1,28 @@
+^D:\SEWA\SEWA\BUILD\WINDOWS\X64\CMAKEFILES\95B87643CA4260387ED4D8CB2C9349B0\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=D:\coincent\flutter PROJECT_DIR=D:\sewa\sewa FLUTTER_ROOT=D:\coincent\flutter FLUTTER_EPHEMERAL_DIR=D:\sewa\sewa\windows\flutter\ephemeral PROJECT_DIR=D:\sewa\sewa FLUTTER_TARGET=D:\sewa\sewa\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC82ZTJlYTU4YTVjY2JlZmNmYWRjMmQ0YjdiODA0NWZjNmMyMGFiODEyLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\sewa\sewa\.dart_tool\package_config.json D:/coincent/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SEWA\SEWA\BUILD\WINDOWS\X64\CMAKEFILES\B58C1FE14B418A5CE8849942C78FB09D\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\SEWA\SEWA\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/sewa/sewa/windows -BD:/sewa/sewa/build/windows/x64 --check-stamp-file D:/sewa/sewa/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

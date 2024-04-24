@@ -1,0 +1,10 @@
+^D:\SEWA\SEWA\BUILD\WINDOWS\X64\CMAKEFILES\0473810D24CF601C9FEE1ED7F36BB641\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\SEWA\SEWA\BUILD\WINDOWS\X64\CMAKEFILES\0473810D24CF601C9FEE1ED7F36BB641\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/sewa/sewa/windows -BD:/sewa/sewa/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/sewa/sewa/build/windows/x64/sewa.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

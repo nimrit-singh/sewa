@@ -1,0 +1,1 @@
+ D:\\sewa\\sewa\\.dart_tool\\flutter_build\\15f974b44efbc4081185aae007236c46\\native_assets.yaml: 
